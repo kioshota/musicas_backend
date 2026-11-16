@@ -18,7 +18,8 @@ app.get("/", (request, response) => {
     sql.query(comandoSelect, (error, data) => { })
 })
 app.listen(3000, () => {
-    console.log("Servidor oline!")
+    console.log("Servidor online!")
 })
+sql.query(comandoSelect, (error, data) => { })
 
 export default app
